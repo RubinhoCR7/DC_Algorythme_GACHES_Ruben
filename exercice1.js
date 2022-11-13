@@ -7,7 +7,6 @@ function inverse(mot){
     	var caInverse = caDecompose.reverse(); 
     	var nouveauWord = caInverse.join(""); 
     	console.log(nouveauWord)
-    return nouveauWord;
 
 }
 inverse("arrivederci")
