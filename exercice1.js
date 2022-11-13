@@ -1,3 +1,6 @@
+//algo js pour inverser une chaine de caractère
+
+
 function inverse(mot){
 
 		var caDecompose = mot.split(""); 
