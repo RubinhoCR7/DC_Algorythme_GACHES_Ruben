@@ -1,6 +1,10 @@
-//inverser une chaine de caractère
+function inverse(mot){
 
+		var caDecompose = mot.split(""); 
+    	var caInverse = caDecompose.reverse(); 
+    	var nouveauWord = caInverse.join(""); 
+    	console.log(nouveauWord)
+    return nouveauWord;
 
-const string = "Arriverdci"
-
-console.log(string.split());
+}
+inverse("arrivederci")
