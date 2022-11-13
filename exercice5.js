@@ -23,4 +23,4 @@ import java.util.Arrays;
  			System.out.println("nombre: " + entier);
  			}
  				}
-}
+	}
