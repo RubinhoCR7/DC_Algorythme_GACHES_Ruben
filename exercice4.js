@@ -1,12 +1,12 @@
-function start(x){
-
-    var calculNouvelleValeure = 0
-
-    for(var i = 1; i <= x ; i++){
-        calculNouvelleValeur= calculNouvelleValeur + i;
+function sumOfTheNumber(data) {
+    if(data != "" || data != null || data > 0) {
+        let n = 0;
+        let result = 0;
+        while (n < data) {
+            n++;
+            result += n;
+        }
+        return result;
     }
-
-    calculNouvelleValeur;
+    return null;
 }
-
-console.log(start(5));
