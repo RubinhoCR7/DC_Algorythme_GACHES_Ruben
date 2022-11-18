@@ -1,12 +1,12 @@
-//algo js pour inverser une chaine de caractère
+//Inverser chaine de carac
 
-
-function inverse(mot){
-
-		var caDecompose = mot.split(""); 
-    	var caInverse = caDecompose.reverse(); 
-    	var nouveauWord = caInverse.join(""); 
-    	console.log(nouveauWord)
-
+function reverseString(data) {
+    let result = [];
+    if(data != "" || data != null) {
+        for (let i = data.length - 1; i >= 0; i--) { 
+            result.push(data[i]);
+        }
+        return result.toString();
+    }
+    return "";
 }
-inverse("arrivederci")
