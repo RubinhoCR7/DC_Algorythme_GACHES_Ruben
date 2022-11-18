@@ -1,8 +1,14 @@
-// Algo JS pour trouver le plus grand des trois entiers donnés.(tableau donné en paramètre de la fonction)
+// trouver le plus grand nombre
 
-function SerieDinProgress(array){
-	let max = Math.max.apply(Math, array)
-	console.log(max)
+function findTheThreeBiggestNumber(data) {
+    if(data != "" || data != null || data != 0 || data != []) {
+        let result = data[0];
+        for (let i = 0; i < data.length; i++) {
+            if(result < data[i]) {
+                result = data[i];
+            }
+        }
+        return result;
+    }
+    return null;
 }
-
-SerieDinProgress([17,7,150,4,21])
